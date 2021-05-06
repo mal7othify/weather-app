@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:weather_app/home.dart';
 
-main(List<String> args) => MyApp();
+main(List<String> args) => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
