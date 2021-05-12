@@ -1,16 +1,21 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+## :scroll: Description
 
-## Getting Started
+This Flutter app displays real weather data. I built it following this [tutorial](https://fairybits.com/blog/flutter-weather-app-en).
 
-This project is a starting point for a Flutter application.
+#### Tools
 
-A few resources to get you started if this is your first Flutter project:
+* Location permissions.
+* [Geolocator package](https://pub.dev/packages/geolocator).
+* [Weather API](https://home.openweathermap.org/).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## :camera_flash: Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Android
+
+<img src="/result/and_screenshot1.png" width="260">&emsp;<img src="/result/and_screenshot2.png" width="260">&emsp;<img src="/result/and_screenshot3.png" width="260">
+
+#### iOS
+
+<img src="/result/ios_screenshot1.png" width="260">&emsp;<img src="/result/ios_screenshot2.png" width="260">&emsp;<img src="/result/ios_screenshot3.png" width="260">
