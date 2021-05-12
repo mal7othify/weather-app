@@ -73,7 +73,7 @@ class _HomeState extends State<Home> {
                               color: Theme.of(context).primaryColor,
                             ),
                             Text(
-                              "City, country",
+                              "${currentWeather!.city}, ${currentWeather!.country}",
                               style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.bold,
@@ -84,7 +84,7 @@ class _HomeState extends State<Home> {
                         ),
                         SizedBox(height: 20),
                         Text(
-                          "38 degree",
+                          "${currentWeather!.temp.toString()}",
                           style: TextStyle(
                             fontSize: 80,
                             fontWeight: FontWeight.bold,
@@ -94,7 +94,7 @@ class _HomeState extends State<Home> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              "Clear: clear sky",
+                              "${currentWeather!.main}: ${currentWeather!.desc}",
                               style: TextStyle(fontSize: 20),
                             ),
                           ],
